@@ -51,7 +51,7 @@ label mas_wrs_roblox:
     $ wrs_success = mas_display_notif(
         m_name,
         [
-            "Me gustaría ver una skin de mí en el juego, ¿La tienes en tu cuenta [player]?",
+            "Me gustaría ver una skin de mí en el juego, ¿La posees en tu cuenta [player]?",
             "Recuerda evitar buscar 'Robux Gratis', Solamente son estafas."
         ],
         'Reacciones de Ventana'

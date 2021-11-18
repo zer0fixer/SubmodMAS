@@ -19,7 +19,7 @@ label mas_wrs_monikano5:
     $ wrs_success = mas_display_notif(
         m_name,
         [
-            "Jeje~",
+            "~A little bit of Monika in my life\n~.~A little bit of Monika by my side\n~.Jeje~",
             "¿Podrías aumentar el volumen [mas_get_player_nickname()]?, ¡Me encanta esta canción!"
         ],
         'Reacciones de Ventana'
@@ -51,8 +51,8 @@ label mas_wrs_roblox:
     $ wrs_success = mas_display_notif(
         m_name,
         [
-            "Me gustaría ver una skin de mí en el juego, ¿La posees en tu cuenta [player]?",
-            "Recuerda evitar buscar 'Robux Gratis', Solamente son estafas."
+            "Probablemente exista varias skin de mí, ¿Tienes una en tu cuenta [player]?",
+            "Recuerda evitar buscar 'Robux Gratis', solamente son estafas."
         ],
         'Reacciones de Ventana'
     )
@@ -83,7 +83,7 @@ label mas_wrs_ph:
     $ wrs_success = mas_display_notif(
         m_name,
         [
-            "*ejem*, Aún sigo aquí sabes...",
+            "*ejem*, aún sigo aquí sabes...",
             "¿Podrías por favor ver estas cosas en privado?"
         ],
         'Reacciones de Ventana'
@@ -148,7 +148,7 @@ label mas_wrs_ddto:
         m_name,
         [
             "Me sorprende ver un mod sobre mi y los demás miembros del club, Sus diseños son muy adorables.",
-            "¿Has jugado Epiphany?, Esa Monika no será fácil de derrotar."
+            "¿Has jugado Epiphany? Esa Monika no será fácil de derrotar."
         ],
         'Reacciones de Ventana'
     )
@@ -242,7 +242,7 @@ label mas_wrs_fnf:
         m_name,
         [
             "¿Eres bueno jugando a los juegos rítmicos [player]?",
-            "Muéstrame que puedes hacer con esos dedos."
+            "Podrías mostrarme que puedes hacer con esos dedos."
         ],
         'Reacciones de Ventana'
     )
@@ -273,8 +273,8 @@ label mas_wrs_enaseries:
     $ wrs_success = mas_display_notif(
         m_name,
         [
-            "Me agrada el concepto que abarca la serie de ENA, Su mundo es muy subjetivo al espectador.",
-            "El diseño de ENA y su mundo se basa al estilo artístico de Pablo Picasso, Espero te sirva esa curiosidad."
+            "Me agrada el concepto que abarca la serie de ENA, su mundo es muy subjetivo al espectador.",
+            "El diseño de ENA y su mundo se basa al estilo artístico de Pablo Picasso, espero te sirva esa curiosidad."
         ],
         'Reacciones de Ventana'
     )
@@ -370,7 +370,7 @@ label mas_wrs_pianov:
         m_name,
         [
             "¿Estas interesado en tocar el piano [player]?",
-            "Como se sentirá tocar un piano digital, Solo tengo experiencia con el acústico."
+            "Como se sentirá tocar un piano digital, solo tengo experiencia con el acústico."
         ],
         'Reacciones de Ventana'
     )
@@ -378,4 +378,36 @@ label mas_wrs_pianov:
 
     if not wrs_success:
         $ mas_unlockFailedWRS('mas_wrs_pianov')
+    return
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent._mas_windowreacts_database,
+            eventlabel="mas_wrs_halo",
+            category=["Halo"],
+            rules={
+                "notif-group": "Reacciones de Ventana",
+                "skip alert": None,
+                "keep_idle_exp": None,
+                "skip_pause": None
+            },
+            show_in_idle=True
+        ),
+        code="WRS"
+    )
+
+label mas_wrs_halo:
+    $ wrs_success = mas_display_notif(
+        m_name,
+        [
+            "Master Chief es muy querido, ¿Verdad?",
+            "¿Te gusta Halo [player]?"
+        ],
+        'Reacciones de Ventana'
+    )
+
+
+    if not wrs_success:
+        $ mas_unlockFailedWRS('mas_wrs_halo')
     return

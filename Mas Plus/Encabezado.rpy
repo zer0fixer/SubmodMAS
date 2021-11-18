@@ -5,7 +5,7 @@ init -990 python:
         description=(
             "Es un pequeño submod dándote más libertadad al hablar con tu Monika.\n"
             "Aun esta en desarrollo.\n"
-            "Si quieres ver lo que trae ve a {b}Registro de cambios.txt{/b}."
+            "Para mas detalles ve a {a=https://github.com/zer0fixer/SubmodMAS/releases}{i}{u}Github{/u}{/i}{/a}."
         ),
-        version="1.0",
+        version="1.1",
     )

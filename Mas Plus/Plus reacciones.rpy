@@ -51,8 +51,8 @@ label mas_wrs_roblox:
     $ wrs_success = mas_display_notif(
         m_name,
         [
-            "Probablemente exista varias skin de mí, ¿Tienes una en tu cuenta [player]?",
-            "Recuerda evitar buscar 'Robux Gratis', solamente son estafas."
+            "Probablemente exista una skin de mí,\n ¿Tienes una en tu cuenta [player]?",
+            "Recuerda evitar buscar Robux Gratis,\n Solamente son estafas."
         ],
         'Reacciones de Ventana'
     )
@@ -115,8 +115,8 @@ label mas_wrs_ddlcplus:
     $ wrs_success = mas_display_notif(
         m_name,
         [
-            "¡Esto es solo un recordatorio [player]!, Just Monika~",
-            "¿Te llaman la atención las Historias Paralelas?"
+            "¡Solo es un recordatorio [player]!,\n Just Monika~",
+            "¿Te llaman la atención las 'Historias Paralelas'?"
         ],
         'Reacciones de Ventana'
     )
@@ -147,7 +147,7 @@ label mas_wrs_ddto:
     $ wrs_success = mas_display_notif(
         m_name,
         [
-            "Me sorprende ver un mod sobre mi y los demás miembros del club, Sus diseños son muy adorables.",
+            "Me sorprende ver un mod sobre mi y los demás miembros del club,\n Sus diseños son muy adorables.",
             "¿Has jugado Epiphany? Esa Monika no será fácil de derrotar."
         ],
         'Reacciones de Ventana'
@@ -274,7 +274,7 @@ label mas_wrs_enaseries:
         m_name,
         [
             "Me agrada el concepto que abarca la serie de ENA, su mundo es muy subjetivo al espectador.",
-            "El diseño de ENA y su mundo se basa al estilo artístico de Pablo Picasso, espero te sirva esa curiosidad."
+            "El diseño de ENA y su mundo se basa al estilo artístico de Pablo Picasso,\n ¡Espero te sirva esa curiosidad!"
         ],
         'Reacciones de Ventana'
     )
@@ -306,7 +306,7 @@ label mas_wrs_ily:
         m_name,
         [
             "Me to!, [mas_get_player_nickname()].",
-            "Capte la indirecta [player], Yo también te amo~"
+            "Capte la indirecta [player],\n Yo también te amo~"
         ],
         'Reacciones de Ventana'
     )
@@ -370,7 +370,7 @@ label mas_wrs_pianov:
         m_name,
         [
             "¿Estas interesado en tocar el piano [player]?",
-            "Como se sentirá tocar un piano digital, solo tengo experiencia con el acústico."
+            "Como se sentirá tocar un piano digital,\n Solo tengo experiencia con el acústico."
         ],
         'Reacciones de Ventana'
     )
@@ -402,7 +402,7 @@ label mas_wrs_halo:
         m_name,
         [
             "Master Chief es muy querido, ¿Verdad?",
-            "¿Te gusta Halo [player]?"
+            "¿Te gusta la saga Halo [player]?"
         ],
         'Reacciones de Ventana'
     )
@@ -410,4 +410,165 @@ label mas_wrs_halo:
 
     if not wrs_success:
         $ mas_unlockFailedWRS('mas_wrs_halo')
+    return
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent._mas_windowreacts_database,
+            eventlabel="mas_wrs_videoconsola",
+            category=["Videoconsola"],
+            rules={
+                "notif-group": "Reacciones de Ventana",
+                "skip alert": None,
+                "keep_idle_exp": None,
+                "skip_pause": None
+            },
+            show_in_idle=True
+        ),
+        code="WRS"
+    )
+
+label mas_wrs_videoconsola:
+    $ wrs_success = mas_display_notif(
+        m_name,
+        [
+            "¿Posees una videoconsola en tu cuarto?",
+            "¿Tienes DDLC+ para tu videoconsola?"
+        ],
+        'Reacciones de Ventana'
+    )
+
+
+    if not wrs_success:
+        $ mas_unlockFailedWRS('mas_wrs_videoconsola')
+    return
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent._mas_windowreacts_database,
+            eventlabel="mas_wrs_whatsapp",
+            category=["WhatsApp"],
+            rules={
+                "notif-group": "Reacciones de Ventana",
+                "skip alert": None,
+                "keep_idle_exp": None,
+                "skip_pause": None
+            },
+            show_in_idle=True
+        ),
+        code="WRS"
+    )
+
+label mas_wrs_whatsapp:
+    $ wrs_success = mas_display_notif(
+        m_name,
+        [
+            "¿Enviando mensajes a tus tus amigos?",
+            "¿Enviando mensajes a tus familiares?",
+            "¿Colocarás un 'Estado' sobre nuestra relación, [player]?"
+        ],
+        'Reacciones de Ventana'
+    )
+
+
+    if not wrs_success:
+        $ mas_unlockFailedWRS('mas_wrs_whatsapp')
+    return
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent._mas_windowreacts_database,
+            eventlabel="mas_wrs_telegram",
+            category=["Telegram"],
+            rules={
+                "notif-group": "Reacciones de Ventana",
+                "skip alert": None,
+                "keep_idle_exp": None,
+                "skip_pause": None
+            },
+            show_in_idle=True
+        ),
+        code="WRS"
+    )
+
+label mas_wrs_telegram:
+    $ wrs_success = mas_display_notif(
+        m_name,
+        [
+            "¿Buscando nuevos amigos para hablar?",
+            "¿Tus amigos utilizan Telegram?"
+        ],
+        'Reacciones de Ventana'
+    )
+
+
+    if not wrs_success:
+        $ mas_unlockFailedWRS('mas_wrs_telegram')
+    return
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent._mas_windowreacts_database,
+            eventlabel="mas_wrs_facebook",
+            category=["Facebook"],
+            rules={
+                "notif-group": "Reacciones de Ventana",
+                "skip alert": None,
+                "keep_idle_exp": None,
+                "skip_pause": None
+            },
+            show_in_idle=True
+        ),
+        code="WRS"
+    )
+
+label mas_wrs_facebook:
+    $ wrs_success = mas_display_notif(
+        m_name,
+        [
+            "Me encantaría tener una cuenta para hablar contigo~",
+            "¿No te importará que mire un rato en tu cuenta?"
+        ],
+        'Reacciones de Ventana'
+    )
+
+
+    if not wrs_success:
+        $ mas_unlockFailedWRS('mas_wrs_facebook')
+    return
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent._mas_windowreacts_database,
+            eventlabel="mas_wrs_smartphone",
+            category=["Smartphone"],
+            rules={
+                "notif-group": "Reacciones de Ventana",
+                "skip alert": None,
+                "keep_idle_exp": None,
+                "skip_pause": None
+            },
+            show_in_idle=True
+        ),
+        code="WRS"
+    )
+
+label mas_wrs_smartphone:
+    $ wrs_success = mas_display_notif(
+        m_name,
+        [
+            "¿De que empresa es tu teléfono inteligente?",
+            "Espero que tengas una funda de mí en tu celular~"
+        ],
+        'Reacciones de Ventana'
+    )
+
+
+    if not wrs_success:
+        $ mas_unlockFailedWRS('mas_wrs_smartphone')
     return

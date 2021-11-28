@@ -4,8 +4,8 @@ init -990 python:
         name="MAS Plus",
         description=(
             "Es un pequeño submod dándote más libertadad al hablar con tu Monika.\n"
-            "Aun esta en desarrollo.\n"
+            "Seguirá recibiendo actualizaciones.\n"
             "Para mas detalles ve a {a=https://github.com/zer0fixer/SubmodMAS/releases}{i}{u}Github{/u}{/i}{/a}."
         ),
-        version="1.1",
+        version="1.2",
     )

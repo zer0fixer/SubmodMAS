@@ -21,7 +21,7 @@ label monika_monikacompliments:
         m 1hub "Esta es la segunda vez que sale a flote este tema, Jeje~"
         m 2eub "¿Te acuerdas de lo que hablamos sobre darte cumplidos?"
         m 2eua "Realmente no veo necesario volver a explicar lo que mencione."
-        m 3eua "Pero, como ya tienes mi atención-"
+        m 3eua "Pero, ya obtuve tu atención así que-"
         m 1ekbsa "Debo de decirte que tienes unos lindos ojos."
         $ _history_list.pop()
         menu:

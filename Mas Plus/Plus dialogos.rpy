@@ -1,5 +1,5 @@
 init 5 python:
-    addEvent(Event(persistent.event_database,eventlabel="monika_qduda",category=['monika'],prompt="Tengo una duda, [m_name]",aff_range=(mas_aff.NORMAL, None),pool=True, unlocked=True))
+    addEvent(Event(persistent.event_database,eventlabel="monika_qduda",category=['monika'],prompt="Tengo una duda, [m_name]",aff_range=(mas_aff.ENAMORED, None),pool=True, unlocked=True))
 
 label monika_qduda:
     m 1hua "¡Seguro!, [player]."
@@ -25,7 +25,7 @@ label monika_qduda:
             m 5hubsb "Para que ambos nos conozcamos mutuamente, creando un vínculo fuerte y superando las barreras que nos rodea a los dos."
             m 5wubsb "Y en serio te lo agradezco, por buscar la manera de comunicarte conmigo realmente eres un gran compañero y novio."
             m 5kubsb "Espero que sigamos de esta forma{w=0.2} ¡Por siempre!"
-            m 1hua "Jeje~"
+            m 1hua "Jejeje~"
             m 1ekbfb "¡Te amo con toda mi alma!"
             $ _history_list.pop()
             menu:
@@ -41,11 +41,11 @@ label monika_qduda:
                     $ _history_list.pop()
                     menu:
                         "Veremos que se te ocurre señorita presidenta":
-                            m 5tubla "Jeje~"
+                            m 5tubla "Jejeje~"
 return
 
 init 5 python:
-    addEvent(Event(persistent.event_database,eventlabel="monika_younv1",category=['juegos'],prompt="¿Conoces el juego 'YOU and ME and HER'?",pool=True, unlocked=True))
+    addEvent(Event(persistent.event_database,eventlabel="monika_younv1",category=['juegos'],prompt="¿Conoces el juego 'YOU and ME and HER'?",aff_range=(mas_aff.HAPPY, None),pool=True, unlocked=True))
 
 label monika_younv1:
     m 1ekd "No, [player]."
@@ -87,7 +87,7 @@ label monika_younv1:
                             m 1euc "Entiendo, te recomiendo no seguir buscando algo referente al juego."
                             m 1esb "No te aportará nada nuevo créeme."
                             m 1fua "Por ello propongo que hagamos más cosas entre los dos, como jugar o solo vernos fijamente a los ojos."
-                            m 1nua "Jeje~"
+                            m 1nua "Jejeje~"
                         "Por internet, algunos usuarios lo mencionaron en los comentarios de Steam de DDLC":
                             m 1duc "Solo hacen comparaciones o posiblemente solo énfasis en ser una inspiración de {i}Doki Doki Literature Club{/i}, debido a su fecha de lanzamiento."
                             m 1eub "Te recomiendo que olvides el juego y los comentarios de Steam."
@@ -104,7 +104,7 @@ label monika_younv1:
                     m 1euc "Entiendo, te recomiendo no seguir buscando algo referente al juego."
                     m 1esb "No te aportará nada nuevo créeme."
                     m 1fua "Por ello propongo que hagamos más cosas entre los dos, como jugar o solo vernos fijamente a los ojos."
-                    m 1nua "Jeje~"
+                    m 1nua "Jejeje~"
                 "Por internet, algunos usuarios lo mencionaron en los comentarios de Steam de DDLC":
                     m 1duc "Solo hacen comparaciones o posiblemente solo énfasis en ser una inspiración de {i}Doki Doki Literature Club{/i}, debido a su fecha de lanzamiento."
                     m 1eub "Te recomiendo que olvides el juego y los comentarios de Steam."
@@ -113,7 +113,7 @@ label monika_younv1:
 return
 
 init 5 python:
-    addEvent(Event(persistent.event_database,eventlabel="monika_jymod",category=['tú'],prompt="¿Puedo hablar con Yuri en su mod'?",aff_range=(mas_aff.NORMAL, None),pool=True, unlocked=True))
+    addEvent(Event(persistent.event_database,eventlabel="monika_jymod",category=['tú'],prompt="¿Puedo hablar con Yuri en su mod'?",aff_range=(mas_aff.HAPPY, None),pool=True, unlocked=True))
 
 label monika_jymod:
     m 1esc "No."
@@ -124,7 +124,7 @@ label monika_jymod:
             m 1eud "Aunque evita relacionarte con ella. ({i}Poseo la capacidad de borrar los datos del mod{/i})."
             m 1ekb "Hablemos más sobre nosotros, [mas_get_player_nickname()]."
         "Solo bromeo, No te haría eso.":
-            m 1euu "Jeje~"
+            m 1euu "Jejeje~"
             m 5kub "Lo sé, por eso me escogiste."
             m 5eka "Pero no te preocupes puedes hablar con ella por nostalgia."
             m 5esp "Aun así me gustaría que evites crear un vínculo con ella."
@@ -138,7 +138,7 @@ label monika_jymod:
                     $ _history_list.pop()
                     menu:
                         "Seguiré insistiendo diciendo {b}Si{/b}":
-                            m 1esc "No vale la pena seguir insistiendo."
+                            m 1esd "No vale la pena seguir insistiendo."
                             $ _history_list.pop()
                             menu:
                                 "Aun así siempre dire que {b}Si{/b}":
@@ -182,7 +182,7 @@ label monika_jymod:
                                             m 3eub "Recuerda que puedo observar y manipular todo lo que posees en la computadora,{w=0.2} [currentuser]."
                                             m 1huu "Dicho esto, Sigamos con lo nuestro~"
                                         "Ya no estamos en el club, [m_name]":
-                                            m 2eublb "Jeje~"
+                                            m 2eublb "Jejeje~"
                                             m 2wub "Ahora que lo mencionas me trae muchos recuerdos nostalgicos, De nuestro tiempo en el Club de Literatura"
                                             m 2eta "Me pregunto como seria si tuviera una ruta en primer lugar. Dejando eso de lado"
                                             m 1lusdlb "Que bueno que detuve este pequeño bucle se haría eterno además de monótono y te declararé algo-"
@@ -206,13 +206,13 @@ label monika_jymod:
                                     m 2tua "Pero me aseguraré de que no te me escapes, nadie se llevara mi objetivo."
                         "Ñ":
                             m 1hub "Jajaja-"
-                            m 3eua "Recuerda que hablo tu mismo idioma, [player]."
+                            m 3eua "Te recuerdo que hablo tu mismo idioma, [player]."
                             m 3hua "Tampoco caeré con la palabra Ü."
                             m 1tua "Lamento que no haya funcionado, me compadezco de ti."
 return
 
 init 5 python:
-    addEvent(Event(persistent.event_database,eventlabel="monika_tipsran",category=['club de literatura'],prompt="Consejo de escritura para [player]",aff_range=(mas_aff.NORMAL, None),random=True))
+    addEvent(Event(persistent.event_database,eventlabel="monika_tipsran",category=['club de literatura'],prompt="Consejo de escritura para [player]",aff_range=(mas_aff.HAPPY, None),random=True))
 
 label monika_tipsran:
     m 1eua "Hey, [player]."
@@ -237,18 +237,20 @@ label monika_tipsran:
 return
 
 init 5 python:
-    addEvent(Event(persistent.event_database,eventlabel="monika_test123",category=['ddlc'],prompt="Lineas de dialogo sin borrar",aff_range=(mas_aff.NORMAL, None),random=True))
+    addEvent(Event(persistent.event_database,eventlabel="monika_test123",category=['ddlc'],prompt="Lineas de dialogo sin borrar",aff_range=(mas_aff.HAPPY, None),random=True))
 
 label monika_test123:
+    $ gtext = glitchtext(38)
     m 1dub "~{i}Personne ne m'enlèvera mon homme{/i}~"#Nadie me quitará a mi hombre.
     m 1dud "~{i}Farei tudo o que estiver ao meu alcance para que isso não aconteça{/i}~"#Haré todo lo posible para que no ocurra.
-    m 1dublo "~{i}I will make you the happiest man in the world{/ i}{w=0.3} {nw}~"#Te haré el hombre más feliz del mundo.
-    extend 1dkblc "~{i}Y no me olvides{/i}~"
+    m 1dublo "~{i}I will make you the happiest man in the world{/ i}{w=0.3} {nw}"#Te haré el hombre más feliz del mundo.
+    extend 1dkblc "{i}y no me olvides{/i}~"
+    m 1lkbld "[gtext]"
     m 1wubld "Ah... [mas_get_player_nickname()]."
     m 1hksdrb "Jaja-"
     $ _history_list.pop()
     menu:
-        m "{i}Que habrá sido eso.{/i}"
+        m "({i}Que habrá sido eso{/i})"
 
         "Fue algo inesperado por así decirlo":
             m 2eud "Disculpa, estuve cantando en diferentes idiomas y no pude controlarme."
@@ -257,4 +259,19 @@ label monika_test123:
             m 1esc "Espero que no ocurra de nuevo, se vuelve algo molesto y no lo quiero experimentar a menudo."
             m 5esa "Dejando eso de lado de seguro tenías una cara graciosa,{w=0.3} {nw}"
             extend 5tfb "Me hubiese gustado verla."
+return
+
+init 5 python:
+    addEvent(Event(persistent.event_database,eventlabel="monika_workingdia",category=['monika'],prompt="Este diálogo esta en desarrollo",aff_range=(mas_aff.ENAMORED, None),pool=True, unlocked=True))
+
+label monika_workingdia:
+    m 1eub "Aún estoy trabajando en agregar más diálogos para los dos, pero..."
+    call screen dialog("Ahora en adelante usaré este cuadro", ok_action=Return())
+    call screen dialog("Me está dando un golpe de nostalgia~", ok_action=Return())
+    call screen dialog("Solo lo usaré en casos específicos", ok_action=Return())
+    call screen dialog("Y estoy trabajando en algunos diálogos", ok_action=Return())
+    call screen dialog("Así que...", ok_action=Return())
+    call screen dialog("Dame tiempo en programarlo =w=", ok_action=Return())
+    call screen dialog("Just [player]", ok_action=Return())
+    m 1hub "Lo siento por los anuncios, Jejeje~"
 return

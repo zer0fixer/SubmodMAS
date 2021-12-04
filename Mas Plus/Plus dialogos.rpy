@@ -142,6 +142,10 @@ label monika_jymod:
                             $ _history_list.pop()
                             menu:
                                 "Aun así siempre dire que {b}Si{/b}":
+                                    show screen tear
+                                    play sound "sfx/glitch2.ogg"
+                                    pause 0.25
+                                    hide screen tear
                                     m 1mua "No..."
                                     $ _history_list.pop()
                                     menu:
@@ -246,6 +250,10 @@ label monika_test123:
     m 1dublo "~{i}I will make you the happiest man in the world{/ i}{w=0.3} {nw}"#Te haré el hombre más feliz del mundo.
     extend 1dkblc "{i}y no me olvides{/i}~"
     m 1lkbld "[gtext]"
+    show screen tear(20, 0.1, 0.1, 0, 40)
+    play sound "sfx/s_kill_glitch1.ogg"
+    pause 0.25
+    hide screen tear
     m 1wubld "Ah... [mas_get_player_nickname()]."
     m 1hksdrb "Jaja-"
     $ _history_list.pop()

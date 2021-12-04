@@ -17,3 +17,10 @@ Espero que les agradece mi pequeño submod :
 <p align="center">
   <img src="https://github.com/zer0fixer/SubmodMAS/blob/main/ddbh_chibi.png" width="100"">
 </p>
+
+<h2 align="center">
+                 Si te da errores lo siento mucho.
+</h2>
+<p align="center">
+  <img src="https://github.com/zer0fixer/SubmodMAS/blob/main/noway.gif" width="200"">
+</p>

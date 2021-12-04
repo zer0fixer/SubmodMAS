@@ -1,7 +1,7 @@
 
 # MAS + (Es una referencia a DDLC+
 Es un submod que tratara de añadir un poco de todo a Monika After Story.
-Aun esta en desarollo pero mi meta final es llegara hasta la version 2.0.
+Aun esta en desarollo pero mi meta final es llegar hasta la version 2.0.
 Espero que les agradece mi pequeño submod :
 
 - Reacciones de Ventana.
@@ -12,14 +12,16 @@ Espero que les agradece mi pequeño submod :
 
 - Minijuegos.
 
-- Cumplidos.
+- Cumplidos asi ti.
+
+- Me siento.... [Intentaré poner emociónes algo insertables]
 
 <p align="center">
   <img src="https://github.com/zer0fixer/SubmodMAS/blob/main/ddbh_chibi.png" width="100"">
 </p>
 
 <h2 align="center">
-                 Si te da errores lo siento mucho.
+                 Si te dió errores realmente lo siento.
 </h2>
 <p align="center">
   <img src="https://github.com/zer0fixer/SubmodMAS/blob/main/noway.gif" width="200"">

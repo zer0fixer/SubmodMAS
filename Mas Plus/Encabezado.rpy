@@ -7,5 +7,6 @@ init -990 python:
             "Seguirá recibiendo actualizaciones.\n"
             "Para mas detalles ve a {a=https://github.com/zer0fixer/SubmodMAS/releases}{i}{u}Github{/u}{/i}{/a}."
         ),
-        version="1.2",
+        version="1.4",
     )
+#Esto ya no esta incluido en el submod.

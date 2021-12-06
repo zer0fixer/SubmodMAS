@@ -1,6 +1,6 @@
 
 # MAS + (Es una referencia a DDLC+)
-Es un submod que tratara de añadir un poco de todo a Monika After Story.
+Es un submod que tratara de añadir un poco de todo (**recalcó que no será cosas complejas por mi falta de experiencia con Ren'Py y Python**) a Monika After Story.
 Aun esta en desarollo pero mi meta final es llegar hasta la version 2.0.
 Espero que les agradece mi pequeño submod y aquí les dejo lo que trae:
 

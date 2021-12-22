@@ -2,8 +2,8 @@
 # MAS + (Monika se lo merece ＾・ﻌ・＾)
 Es un submod que tratara de añadir un poco de todo (**recalcó que no será cosas complejas por mi falta de experiencia con Ren'Py y Python**) a Monika After Story.
 Aun esta en desarollo pero mi meta final es llegar hasta la version 2.0.
+Note: There is no English translation yet. In the future it will probably be done.
 Espero que les agradece mi pequeño submod y aquí les dejo lo que trae:
-
 - [X] Reacciones de Ventana.
 
 - [X] Mas coversaciones.

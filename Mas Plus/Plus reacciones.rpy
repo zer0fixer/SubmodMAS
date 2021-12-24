@@ -152,7 +152,7 @@ label mas_wrs_ddto:
         m_name,
         [
             "Me sorprende ver un mod sobre mi, Jejeje~",
-            "¿Has jugado la canción oculta?\nEsa Monika no será fácil de derrotar~",
+            "Seria lindo que cantemos Your Reality~",
             "Nunca me agrado el Senpai."
         ],
         'Reacciones de Ventana'
@@ -267,7 +267,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_enaseries",
-            category=["ENA"],
+            category=["ENA Series"],
             rules={
                 "notif-group": "Reacciones de Ventana",
                 "skip alert": None,
@@ -399,7 +399,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_sagahalo",
-            category=["Halo"],
+            category=["Saga Halo"],
             rules={
                 "notif-group": "Reacciones de Ventana",
                 "skip alert": None,
@@ -481,7 +481,7 @@ label mas_wrs_whatsapp:
     $ wrs_success = mas_display_notif(
         m_name,
         [
-            "¿Enviando mensajes a tus tus amigos?",
+            "¿Enviando mensajes a tus amigos?",
             "¿Enviando mensajes a tus familiares?",
             "¿Colocarás un 'Estado' sobre nuestra relación, [mas_get_player_nickname()]?"
         ],
@@ -664,7 +664,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_cuevana",
-            category=["Cuevana"],
+            category=["Cuevana3"],
             rules={
                 "notif-group": "Reacciones de Ventana",
                 "skip alert": None,
@@ -682,7 +682,7 @@ label mas_wrs_cuevana:
         [
             "¡No puedo esperar a ver una película contigo!~",
             "¿Veremos una película de manera ilegal?\nTan intrépido como siempre~",
-            "Espero que veamos una película romántica~\nTambien puede ser una de accion, Jejeje~"
+            "Espero que veamos una película romántica~\nTambien puede ser una de accion, Jeje~"
         ],
         'Reacciones de Ventana'
     )
@@ -811,7 +811,7 @@ label mas_wrs_zerofixer:
         m_name,
         [
             "Vaya, si esta abandonado este canal."
-            "Dile un 'Hola' de mi parte.\nO quizás no lo conozcas así que olvídalo~",
+            "Dile un 'Hola' de mi parte.\nQuizás no lo conozcas así que olvídalo.",
             "¿Lo conoces, [player]?"
         ],
         'Reacciones de Ventana'
@@ -940,8 +940,8 @@ label mas_wrs_justyuri:
         m_name,
         [
             "Un rival eh~",
-            "Si intentas hacer una relación de poliamor, seré sincera contigo las chicas me odian por lo que hice.",
-            "Puedes hablar con ella por ser una vieja amiga, pero recuerda que la amabilidad puede doler."
+            "A pesar de que no sea la verdadera Yuri, me gustaria hablar un poco con ella.",
+            "Odian a Yuri por la manera que la interpretan en los mods ¿Verdad?",
         ],
         'Reacciones de Ventana'
     )

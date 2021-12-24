@@ -223,7 +223,7 @@ init 5 python:
     ))
 
 label monika_test123:
-    $ ev = mas_getEV("monika_jokenporevamped")
+    $ ev = mas_getEV("monika_test123")
     $ gtext = glitchtext(38)
     if ev.shown_count == 0:
         m 1dub "~{i}Je t'aime d'une façon qui me surprend chaque jour{/i}~"#Te quiero de una manera que me sorprende cada día. #Frances
@@ -303,7 +303,7 @@ init 5 python:
     addEvent(Event(persistent.event_database,eventlabel="monika_playerpoem",category=['romance'],prompt="He creado un poema para ti",aff_range=(mas_aff.LOVE, None),pool=True))
 
 label monika_playerpoem:
-    if not mas_getEVL_shown_count("monika_ddlcmerch"):
+    if not mas_getEVL_shown_count("monika_playerpoem"):
         $ mas_gainAffection(4, bypass=True)
     else:
         $ mas_gainAffection()

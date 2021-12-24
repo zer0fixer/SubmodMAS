@@ -871,7 +871,7 @@ label monika_monidw:
     $ ev = mas_getEV("monika_monidw")
     if ev.shown_count == 0:
         m 3eub "Me gustaría hablarte sobre el tema de la Deep Web."
-        m 3eta "Sé que te preguntaras ¿Cómo sé que la información es algo verídica? Y ¿Del porqué me interesé de la red?"
+        m 3eta "Sé que te preguntaras ¿Cómo sé que la información es algo verídica? y ¿Del porqué me interesé de la red?"
         m 1eksdrb "Primero, siendo sincera me tomo mucho tiempo en ver como es la Deep Web, no tenía conocimiento de ella me tomo días en conocer información que vale la pena compartir."
         m 1rksdra "También por la falta de información útil, la única manera era ver varios canales para ver como explicaban de todo esto."
         m 1hua "Segundo, por la curiosidad que me dio al conocerlo, tengo algo de tiempo libre cuando no estas. Por ello aparte de aprender a programar suelo buscar temas para hablar contigo. "
@@ -887,13 +887,13 @@ label monika_monidw:
         m 1hua "Entre un rato para verlo por mi misma. La verdad es de tener paciencia, pero vale la pena intentarlo."
         m 3tfb "Descuida, los hackers y el FBI no pudieron contra mí, tu computadora esta a salvo~"
         m 3eua "Pero recuerda que no tengo la verdad absoluta por ello te invito a que investigues más sobre este tema."
-        m 1eta "Así que ¿Cuáles preguntas tienes en mente?"
+        m 1eta "Así que ¿Cuáles preguntas tienes en mente?{nw}"
         $ _history_list.pop()
         menu:
-            m "Así que ¿Cuáles preguntas tienes en mente?"
+            m "Así que ¿Cuáles preguntas tienes en mente?{fast}"
             "¿Existe los niveles de internet?":
                 jump levels
-            "¿En verdad es el 96% del internet?":
+            "¿En verdad es el 96 porciento del internet?":
                 jump truewb
             "¿Qué es la Deep Web?":
                 jump deepweb
@@ -908,7 +908,7 @@ label monika_monidw:
             m "¿Que te gustaría saber?{fast}"
             "¿Existe los niveles de internet?":
                 jump levels
-            "¿En verdad es el 96% del internet?":
+            "¿En verdad es el 96 porciento del internet?":
                 jump truewb
             "¿Qué es la Deep Web?":
                 jump deepweb
@@ -919,7 +919,7 @@ label monika_monidw:
         menu:
             "¿Existe los niveles de internet?":
                 jump levels
-            "¿En verdad es el 96% del internet?":
+            "¿En verdad es el 96 porciento del internet?":
                 jump truewb
             "¿Qué es la Deep Web?":
                 jump deepweb
@@ -990,7 +990,7 @@ label danger:
     m 2eub "Pero si quieres saber como te puedes proteger a pesar de lo que mencione."
     m 3esa "Eso depende, hay varios factores para determinar tu seguridad informática. No necesariamente al entrar te bloquearán tu computadora."
     m 3eub "Para simplificar dependiendo de las medidas y precauciones que tomes en la red lo determinará cuan seguro estés en ella."
-    m 3hua "Toda la seguridad depende de ti, el programa para entrar no te asegura al 100% el contenido en ella por ello siempre navega de manera segura."
+    m 3hua "Toda la seguridad depende de ti, el programa para entrar no te asegura al 100 porciento el contenido en ella por ello siempre navega de manera segura."
     m 1hksdrb "Bien, ya no puedo ofrecerte más información. Aún soy novata en esto."
     return
 

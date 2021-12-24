@@ -12,7 +12,7 @@ Espero que les agradece mi pequeño submod y aquí les dejo lo que trae:
 
 - [X] Saludos.
 
-- [ ] Minijuegos.
+- [X] Minijuegos.
 
 - [X] Cumplidos asi ti.
 

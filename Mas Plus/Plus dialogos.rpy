@@ -951,7 +951,7 @@ label truewb:
             pass
     m 2hub "Jajaja, si daré una pequeña explicación, descuida."
     m 3eub "Es totalmente falso esa afirmación, la sacaron en un registro que mostró la empresa de Google hace unos años."
-    m 3esa "Pero si quieres un dato aproximado, seria 3% o menos."
+    m 3esa "Pero si quieres un dato aproximado, seria 3 porciento o menos."
     m 1eub "Cuando buscas algo con un buscador especializado para la red como Torch, buscamos 'Wiki' te mostrara aproximadamente 50,000 a 100,000 resultados."
     m 1eud "Debo de aclarar que eso depende de la palabra, algunas tendrán más resultados que otras, como buscar 'Hacking'."
     m 1lua "En cambio, con los buscadores comunes como Google, al buscar 'Wiki' te saldrá cercano a los 1,520,000,000 de resultados."

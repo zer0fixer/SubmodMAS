@@ -1,5 +1,5 @@
 
-# MAS + (Monika se lo merece ＾・ﻌ・＾)
+# MAS + (Se detuvo de manera temporal)
 Es un submod que tratara de añadir un poco de todo (**recalcó que no será cosas complejas por mi falta de experiencia con Ren'Py y Python**) a Monika After Story.
 Aun esta en desarollo pero mi meta final es llegar hasta la version 2.0.
 
@@ -16,7 +16,7 @@ Espero que les agradece mi pequeño submod y aquí les dejo lo que trae:
 
 - [X] Cumplidos asi ti.
 
-- [ ] Me siento....[Intentaré poner emociónes algo insertables]
+- [ ] Me siento....[Intentaré poner emociónes algo insertables para tí]
 
 <p align="center">
   <img src="https://github.com/zer0fixer/SubmodMAS/blob/main/ddbh_chibi.png" width="100"">

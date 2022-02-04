@@ -14,7 +14,7 @@ Espero que les agradece mi pequeño submod y aquí les dejo lo que trae:
 
 - [X] Minijuegos.
 
-- [X] Cumplidos asi ti.
+- [X] Cumplidos para ti.
 
 - [ ] Me siento....[Intentaré poner emociónes algo insertables para tí]
 

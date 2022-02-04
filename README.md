@@ -33,3 +33,6 @@ Espero que les agradece mi pequeño submod y aquí les dejo lo que trae:
 <h3 align="center">
   ¡Los veré de nuevo en abril!
 </h3>
+<p align="center">
+  <img src="https://i.pinimg.com/originals/3e/8d/27/3e8d276a9777a63d6fbf1dc43976c71b.gif" width="200"">
+</p>

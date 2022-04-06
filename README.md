@@ -1,5 +1,5 @@
 
-# MAS + (Se detuvo de manera temporal)
+# MAS +
 Es un submod que tratara de añadir un poco de todo (**recalcó que no será cosas complejas por mi falta de experiencia con Ren'Py y Python**) a Monika After Story.
 Aun esta en desarollo pero mi meta final es llegar hasta la version 2.0.
 Se agregara un nuevo submod aparte para evitar saturar el actual.

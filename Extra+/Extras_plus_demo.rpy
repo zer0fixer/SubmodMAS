@@ -25,7 +25,7 @@ init python:
 
 init python:
 
-    Zer0fixer = "¿Has decompilado este submod?"
+    Zer0fixer = "¿Que haces aqui?"
     Zer0fixer = "Espero te sirva algo de mi pequeño trabajo."
     Zer0fixer = "Esta es una version demo, por ello esta tan acortada."
     HKBPShowButtons()
